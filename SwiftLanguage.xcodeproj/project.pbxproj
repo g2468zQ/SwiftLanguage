@@ -22,6 +22,20 @@
 			remoteGlobalIDString = B322DA2F19425654005E19B6;
 			remoteInfo = SwiftLanguage;
 		};
+		B33CAB881942D677008DF529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B322DA2819425654005E19B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B322DA2F19425654005E19B6;
+			remoteInfo = SwiftLanguage;
+		};
+		B33CAB8A1942D6DE008DF529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B322DA2819425654005E19B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B322DA2F19425654005E19B6;
+			remoteInfo = SwiftLanguage;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -141,6 +155,8 @@
 			);
 			dependencies = (
 				B322DA4219425654005E19B6 /* PBXTargetDependency */,
+				B33CAB891942D677008DF529 /* PBXTargetDependency */,
+				B33CAB8B1942D6DE008DF529 /* PBXTargetDependency */,
 			);
 			name = SwiftLanguageTests;
 			productName = SwiftLanguageTests;
@@ -227,6 +243,16 @@
 			isa = PBXTargetDependency;
 			target = B322DA2F19425654005E19B6 /* SwiftLanguage */;
 			targetProxy = B322DA4119425654005E19B6 /* PBXContainerItemProxy */;
+		};
+		B33CAB891942D677008DF529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B322DA2F19425654005E19B6 /* SwiftLanguage */;
+			targetProxy = B33CAB881942D677008DF529 /* PBXContainerItemProxy */;
+		};
+		B33CAB8B1942D6DE008DF529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B322DA2F19425654005E19B6 /* SwiftLanguage */;
+			targetProxy = B33CAB8A1942D6DE008DF529 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -387,6 +413,7 @@
 				B322DA4C19425654005E19B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B322DA4D19425654005E19B6 /* Build configuration list for PBXNativeTarget "SwiftLanguageTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +422,7 @@
 				B322DA4F19425654005E19B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
