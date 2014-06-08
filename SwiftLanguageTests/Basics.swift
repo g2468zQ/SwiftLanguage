@@ -269,10 +269,10 @@ class Basics: XCTestCase {
         
         //
         let e: Int? = ("a" as NSString).integerValue
-        XCTAssert(e == 0, "f should not equal 123")
+        XCTAssert(e == 0, "f should equal zero")
         var f = e! + 1
         XCTAssert(f != 123, "f should not equal 123")
-        XCTAssert(f == 1, "f should not equal 123")
+        XCTAssert(f == 1, "f should 1")
     }
 
 
