@@ -172,7 +172,7 @@ class Basics: XCTestCase {
         let octalInteger = 0o21           // 17 in octal notation
         let hexadecimalInteger = 0x11     // 17 in hexadecimal notation
         
-        // Can cast to NSNUmber, but not Double
+        // Can cast to NSNumber, but not Double
         binaryInteger as NSNumber
         octalInteger as NSNumber
         hexadecimalInteger as NSNumber
