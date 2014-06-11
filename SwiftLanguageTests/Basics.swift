@@ -10,6 +10,26 @@ import XCTest
 
 class Basics: XCTestCase {
 
+    func ary1()->Int[] {
+        return [1,2,3]
+    }
+    
+    func ary2()->Int[] {
+        return [1,2,3]
+    }
+    
+    func ary12()->Int[] {
+        return (ary1() + ary2())
+    }
+    
+    func tuple1()->(Int, Character,String) {
+        return (1, "a","Hello")
+    }
+    
+    func tuple2()->(Int, Character, String ) {
+        return (1, "a", "Hello")
+    }
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -273,9 +293,125 @@ class Basics: XCTestCase {
         var f = e! + 1
         XCTAssert(f != 123, "f should not equal 123")
         XCTAssert(f == 1, "f should 1")
+        
+        let g: String? = nil
+        
+        if g {
+            
+        }
     }
+    
+    func testAssignment() {
+        var a: (Int, Int, Int)
 
+        // variable a.0 must be initialized before first use
+        // println(a)
+        
+        a = (1, 2, 3)
+        
+        // can not convert type \() to int
+        // a = (1, 2, "a")
+        
+        // ST3, ST4, ST5 , ST6 is not convertable to int
+        // a = (1,2, (1, (1,2,3)))
+    
+        var b: (Int, (Int, (Int)));
+        b = (1, (1, (1)))
+        
+        var c: Int? = nil
+        if let d = c {
+            println(d);
+        }
+    }
+    
+    func testArithmeticOperators() {
+        
+        XCTAssert(ary12() == (ary1() + ary2()), "ary12 should equal ary1 + ary2")
+        
+        var a = [1,2,3] + [4]
+        XCTAssert(a == [1,2,3,4], "[1,2,3] + [4]")
+        
+        // Amibiguous == operator
+        // XCTAssert([1,2,3,4] == [1,2,3,4], "[1,2,3] + [4]")
+        
+        // Could not overload for ===
+        //XCTAssert((1,2,"A") == (1,2, "A"), "(1,2,\"A\") should be equal to (1,2,\"A\")")
+        
+        // Could not find overload for ==
+        // var b = [1,2,3] - [3]
+        // XCTAssert(b == [1,2], "b should equal [1,2]")
+        
+        // Could not find overload for *
+        //var b1 = [1,2,3] * 3
+        
+        // Could not find overload for /
+        // var b1 = [1,2,3] / 3
+        
+    }
+    
+    func testFPRemainder() {
+        XCTAssert( 8%3 == 2, "8 divided by 3 is equal to remainder 2");
+    }
+    
+    func testArrays() {
+    
+        // Cast and use as NSArray
+        var shoppingList = ["a", "b", "c"]
+        var nsarray = shoppingList as NSArray
+        var f = nsarray.count
+        
+        var a: NSArray = [1, 2, 3]
+        var b = a as Array
+        var c = b + [4]
+        //XCTAssert( (c == [1, 2, 3, 4]) == true     , "c should equal [1, 2, 3, 4]")
+        
+    }
+    
+    func testIncrementDecrement() {
+        var aa: Int = 3
+        aa++
+        ++aa
+        aa--
+        --aa
+        //++(++aa)
+        
+        var bb = aa++
+        
+        -bb
+        +bb
+        bb += 1
+        bb -= 1
+        
+    }
+    
+    
+    func testComparison() {
+        XCTAssert( 1 == 1, "pass");
+        XCTAssert( 1 == true, "pass");
+        XCTAssert( 0 == false, "pass");
+        // XCTAssert( 0 == nil, "pass");
+        
+        XCTAssert(-0 == false, "pass")
+        // XCTAssert(-0 == nil, "pass")
 
+        
+        // What is -1 ?
+        XCTAssert(-1 != false, "pass")
+        // XCTAssert(-1 == true, "pass") fail!?
+        // XCTAssert(-1 == nil, "pass") fail !?
+        
+        
+        // XCTAssert( false == nil, "pass");
+        // XCTAssert( nil == nil, "pass");
+        
+        XCTAssert( 1 == true, "pass");
+        
+        var a: Int = 0
+        XCTAssert( ++a == true, "pass");
+        XCTAssert( --a == false, "pass");
+
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measureBlock() {
