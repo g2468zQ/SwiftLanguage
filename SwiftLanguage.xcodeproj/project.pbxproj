@@ -36,6 +36,48 @@
 			remoteGlobalIDString = B322DA2F19425654005E19B6;
 			remoteInfo = SwiftLanguage;
 		};
+		B33CAB8C1942D6DE008DF529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B322DA2819425654005E19B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B322DA2F19425654005E19B6;
+			remoteInfo = SwiftLanguage;
+		};
+		B33CAB8E1942D6E4008DF529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B322DA2819425654005E19B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B322DA2F19425654005E19B6;
+			remoteInfo = SwiftLanguage;
+		};
+		B33CAB901942D714008DF529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B322DA2819425654005E19B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B322DA2F19425654005E19B6;
+			remoteInfo = SwiftLanguage;
+		};
+		B33CAB921942D716008DF529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B322DA2819425654005E19B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B322DA2F19425654005E19B6;
+			remoteInfo = SwiftLanguage;
+		};
+		B33CAB941942D726008DF529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B322DA2819425654005E19B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B322DA2F19425654005E19B6;
+			remoteInfo = SwiftLanguage;
+		};
+		B33CAB961942D729008DF529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B322DA2819425654005E19B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B322DA2F19425654005E19B6;
+			remoteInfo = SwiftLanguage;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -157,6 +199,12 @@
 				B322DA4219425654005E19B6 /* PBXTargetDependency */,
 				B33CAB891942D677008DF529 /* PBXTargetDependency */,
 				B33CAB8B1942D6DE008DF529 /* PBXTargetDependency */,
+				B33CAB8D1942D6DE008DF529 /* PBXTargetDependency */,
+				B33CAB8F1942D6E4008DF529 /* PBXTargetDependency */,
+				B33CAB911942D714008DF529 /* PBXTargetDependency */,
+				B33CAB931942D716008DF529 /* PBXTargetDependency */,
+				B33CAB951942D726008DF529 /* PBXTargetDependency */,
+				B33CAB971942D729008DF529 /* PBXTargetDependency */,
 			);
 			name = SwiftLanguageTests;
 			productName = SwiftLanguageTests;
@@ -253,6 +301,36 @@
 			isa = PBXTargetDependency;
 			target = B322DA2F19425654005E19B6 /* SwiftLanguage */;
 			targetProxy = B33CAB8A1942D6DE008DF529 /* PBXContainerItemProxy */;
+		};
+		B33CAB8D1942D6DE008DF529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B322DA2F19425654005E19B6 /* SwiftLanguage */;
+			targetProxy = B33CAB8C1942D6DE008DF529 /* PBXContainerItemProxy */;
+		};
+		B33CAB8F1942D6E4008DF529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B322DA2F19425654005E19B6 /* SwiftLanguage */;
+			targetProxy = B33CAB8E1942D6E4008DF529 /* PBXContainerItemProxy */;
+		};
+		B33CAB911942D714008DF529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B322DA2F19425654005E19B6 /* SwiftLanguage */;
+			targetProxy = B33CAB901942D714008DF529 /* PBXContainerItemProxy */;
+		};
+		B33CAB931942D716008DF529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B322DA2F19425654005E19B6 /* SwiftLanguage */;
+			targetProxy = B33CAB921942D716008DF529 /* PBXContainerItemProxy */;
+		};
+		B33CAB951942D726008DF529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B322DA2F19425654005E19B6 /* SwiftLanguage */;
+			targetProxy = B33CAB941942D726008DF529 /* PBXContainerItemProxy */;
+		};
+		B33CAB971942D729008DF529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B322DA2F19425654005E19B6 /* SwiftLanguage */;
+			targetProxy = B33CAB961942D729008DF529 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
